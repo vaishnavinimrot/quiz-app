@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(222, 238, 168)
+}
+.App{
+  margin: 3% auto;
+  font-size: large;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.questions{
+  margin-top: 0%;
+  padding-top: 0%;
+  margin: 6% auto;
+  width: 60%;
+  border-radius: 15px;
+  text-align: center;
+  border-style: groove;
+  border-color: rgb(206, 206, 206);
+}
+.options{
+  grid-template-columns:auto auto;
+  list-style: none;
+  display: grid;
+  padding: 10% auto;
+  gap:10px;
+  font-size: larger;
+}
+.options>li>button{
+
+  margin-top: 10%;
+  width: 40%;
+  padding: 5% 5%;
+  border-radius: 15%;
+  background-color: rgb(229, 110, 238);
+  font-weight: bold;
+  font-size: large;
+}
+button{
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  display: inline-block;
+}
+.options>li>button:hover{
+  background-color:  rgb(190, 62, 199); /* Green */ 
+}
+.rebut{
+  background-color: rgb(229, 110, 238);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 1% 2%;
+  font-size: large;
+  border-radius: 15%;
+  
+}
+.result{
+  padding-top: 6%;
+}
